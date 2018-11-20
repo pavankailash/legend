@@ -12,6 +12,12 @@ h1{
 	color:white;
 }
 
+h2{
+	font-size:30px;
+	text-align:center;
+	color:white;
+}
+
 a{
 text-decoration:none;
 }
@@ -57,3 +63,13 @@ min-width:140px;display:none;padding: 0px;}
 .droplinks a{padding: 10px;display:block;}
 
 .dropbutton:hover .droplinks{display:block;}
+
+.vaishpara{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.special{
+font-size:30px;
+	text-align:center;
+	color:yellow;
+}
