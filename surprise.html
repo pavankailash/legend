@@ -1,0 +1,56 @@
+
+<html class="h">
+<title>Welcome</title>
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<h1 class="title"><a href="index.html">Sonorous</a></h1>
+
+<body>
+<nav>
+<ul>
+<li><a href="abouttme.html">About me</a></li>
+<li class="dropbutton"><a href="media.html">Media</a>
+<div class="droplinks"><a href="video.html">Videos</a>
+<a href="music.html">Music</a>
+<a href="art.html">Art</a>
+</div>
+</li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<br>
+<br>
+
+
+<h2>The wait is over Now :)</h2>
+<p>Please enter the password to unlock the gift</p>
+<input type="text" id="pass">
+<script>
+	function myFunction(){
+		var pass=document.getElementById('pass').value;
+		if(pass=="tobi")
+		{
+			document.getElementById('enter').innerHTML="Success";
+		}
+		else
+		{
+			document.getElementById('enter').innerHTML="Wrong Password";
+		}
+
+		
+	}
+</script>
+<button onclick="myFunction()">Unlock</button>
+<p id="enter"></p>
+
+
+<p id=""><font color="white">Hi The above password thing was actually supposed to take you to the video. But due to time constraints, I am skipping it. But yeah :P. Click <a href="vaishvideo.html">here </a>for the last time.</p>
+</body>
+</html>
